@@ -1,20 +1,105 @@
-<link href='http://fonts.googleapis.com/css?family=Nunito:400,700|Signika' rel='stylesheet' type='text/css'>
-
 body{
   margin: 0px;
+}
+
+.container{
+  background-color: cornsilk;
+}
+
+#page_1_text{
+  width:950px;
+  height: 620px;
+  background-image: url(scarecrow.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  box-shadow: 2px 3px 10px 5px #888880;
+}
+
+#page_2_text{
+  width:950px;
+  height: 620px;
+  background-image: url(dorothy.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  box-shadow: 2px 3px 10px 5px #888880;
+}
+
+#page_3_text{
+  width:950px;
+  height: 620px;
+  background-image: url(tinman.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  box-shadow: 2px 3px 10px 5px #888880;
+}
+
+#page_4_text{
+  width:950px;
+  height: 620px;
+  background-image: url(tinman.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  box-shadow: 2px 3px 10px 5px #888880;
+}
+
+#page_5_text{
+  width:950px;
+  height: 620px;
+  background-image: url(lion.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  box-shadow: 2px 3px 10px 5px #888880;
+}
+
+.story_text{
+  width: 450px;
+  height: auto;  
+  font-size: 24px;
+  background-color: #FDF6ED;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 3px 10px #888880;
+  position: absolute;
+  top: 150px; 
+  margin-left: 45px;
+  font-family: "Nunito", sans-serif;
 }
 
 nav{
   background-color: #FF4A3C;
   height: 80px;
   margin: 0px;
+  width: 100%;
 }
 
-p{
-  font-size: 48px;
+nav img {
+  float: left;
+  height: 60px;
+  padding: 10px;
+}
+
+.header {
+  float: left;
+  font-size: 58px;
   margin:0px;
-  padding-top: 15px;  
-  text-align: center;
+  padding-top: 5px;  
+  text-align: left;
   color: #A6E480;
-  font-family: Signika;
+  font-family: "Montserrat", sans-serif;
+  /*text-shadow: 2px 2px #ff0000;*/
 }
