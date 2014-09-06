@@ -5,7 +5,6 @@
   <link href="static/style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Nunito|Signika:700,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
- 		<!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
  <link rel="stylesheet" href="static/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
  <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
  <script>
@@ -18,7 +17,6 @@
     $("a[rel^='prettyPhoto']").prettyPhoto({allow_resize: false, default_width: 480, default_height: 360, social_tools: false});
   });
 </script>
-  <link href='http://fonts.googleapis.com/css?family=Nunito|Signika:700,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body class="container">
@@ -28,14 +26,38 @@
   </nav> 
   <div id="page_1_text">
     <div class="story_text">
-      The first friend Dorothy helped in Oz was named Scarecrow the Robot. Scarecrow wanted a brain. What&#39;s a brain for a robot called?
-a) microprocessor b) batteries  c) motor
-That&#39;s right! Scarecrow needs a microprocessor. 
+  The first friend Dorothy helped in Oz was named Scarecrow the Robot. Scarecrow wanted a brain. What's a brain for a robot called?
+  <br>
+
+<a href="#" onclick="toggle_visibility('microprocessor');">A. Microprocessor</a>
+<div id="microprocessor" style = "display: none"> That's right! Scarecrow needs a microprocessor. 
 <button type = "button"> <a rel="prettyPhoto" href="https://www.youtube.com/watch?v=H9ZTP2k0DRc">What is a microprocessor?</a></button>
+ <a href="page_2.html"> 
+      <button>continue </button>
+    </a>
+</div>
+<br>
+
+<a href="#" onclick="toggle_visibility('batteries');">B. Batteries</a>
+<div id="batteries" style = "display: none">Sorry, wrong answer.</div>
+
+<br>
+
+<a href="#" onclick="toggle_visibility('motor');">C. Horizontal</a>
+<div id="motor" style = "display: none">Sorry, wrong answer.</div>
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
     
     </div>
   </div>
-  <a href="page_2.html"> 
-      <button>continue </button>
-    </a>
 </body>
