@@ -7,24 +7,29 @@ body#page_4{
 }
 
 div#page_4{
-  width:1000px;
-  height: 640px;
+  width:950px;
+  height: 620px;
   background-image: url(Background3_4.jpg);
   background-size: 100%;  
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   box-shadow: 2px 3px 10px 5px #888880;
 }
 
 div.story_text{
-  width: 400px;
+  width: 450px;
   height: 400px;  
   font-size: 24px;
-  border: solid black 2px;
+  background-color: #FDF6ED;
   padding: 20px;
-  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 3px 10px #888880;
+  position: absolute;
+  top: 184px; 
+  margin-left: 45px;
+  font-family: Nunito;
 }
 
 nav{
@@ -40,6 +45,7 @@ p{
   padding-top: 5px;  
   text-align: center;
   color: #A6E480;
-  font-family: Signika;
+  font-family: Montserrat;
+  font-weight: 700;
   /*text-shadow: 2px 2px #ff0000;*/
 }
