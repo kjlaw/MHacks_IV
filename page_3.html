@@ -28,41 +28,37 @@
     <br>
     What type of motion does a motor perform?
 
-<button onclick ="myRotational()">A. Rotational
-</button>  
 
-<script>
-function myRotational () {
-  alert("That is correct! Good job!");
-}
-
-</script>
-
-<button onclick ="myHorizontal()">B. Horizontal
-</button>
-
-<script>
-  function myHorizontal () {
-    alert("Sorry, that is the wrong answer");
-  }
-
-  $('p').fadeIn('slow');
-
-</script>
+  <br>
 
 
-<button onClick="myVertical()"> C. Vertical </button>
-  <script>
-      function myVertical () {
-        alert("Sorry, that is the wrong answer");
-      }
-
-</script>
-
-<p>Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man&#39;s design so that he can show his gratitude?
-<a href="page_4.html"> 
+<a href="#" onclick="toggle_visibility('rotational');">A. Rotational</a>
+<div id="rotational" style = "display: none">Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man’s design so that he can show his gratitude? <a href="page_4.html"> 
       <button>continue </button>
     </a>
+</div>
+<br>
+
+<a href="#" onclick="toggle_visibility('vertical');">B. Vertical</a>
+<div id="vertical" style = "display: none">Sorry, wrong answer.</div>
+
+<br>
+
+<a href="#" onclick="toggle_visibility('horizontal');">C. Horizontal</a>
+<div id="horizontal" style = "display: none">Sorry, wrong answer.</div>
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
     </div>
   </div>
 </body>
