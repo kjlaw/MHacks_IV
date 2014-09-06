@@ -35,6 +35,11 @@ a:hover{
   color: rgba(0, 14, 14, 0.5);
 }
 
+/*div#rotational{
+  height:200px;
+  overflow: scroll;
+}*/
+
 #page_1_text{
   width:950px;
   height: 620px;
