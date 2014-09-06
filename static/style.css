@@ -131,6 +131,8 @@ nav{
   background-color: #FF4A3C;
   height: 80px;
   margin: 0px;
+  width: 100%;
+  min-width:950px;
 }
 
 nav img {
