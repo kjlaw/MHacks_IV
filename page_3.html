@@ -4,6 +4,16 @@
   <link href="static/normalize.css" rel="stylesheet" type="text/css">
   <link href="static/style.css" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Nunito|Signika:700,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="static/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="../jquery.colorbox.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $(".youtube").colorbox({iframe:true, innerWidth:500, innerHeight:390});
+  });
+  </script>
+
 </head>
 
 <body class="container">
@@ -13,11 +23,42 @@
   </nav> 
   <div id="page_3_text">
     <div class="story_text">
-      Dorothy, Toto, and Scarecrow met Tin Man as they continued down the yellow brick road. Tin Man was so rusted that he couldn&#39;t move! &#34;We need to get you some motors,&#34; said Dorothy. (Do you know what a motor is?) (linked text button to video)
-Which part of a motor slows down the rotations?
-a) electric current   b) gear box c) axle shaft
-Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man&#39;s design so that he can show his gratitude?
-[next page]
+      Dorothy, Toto, and Scarecrow met Tin Man as they continued down the yellow brick road. Tin Man was so rusted that he couldn&#39;t move! &#34;We need to get you some motors,&#34; said Dorothy. <button type = "button"><a rel="prettyPhoto" href="https://www.youtube.com/watch?v=H9ZTP2k0DRc"> What is a motor?</a>
+    </button>
+    <br>
+    What type of motion does a motor perform?
+
+
+  <br>
+
+
+<a href="#" onclick="toggle_visibility('rotational');">A. Rotational</a>
+<div id="rotational" style = "display: none">Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man’s design so that he can show his gratitude? <a href="page_4.html"> 
+      <button>continue </button>
+    </a>
+</div>
+<br>
+
+<a href="#" onclick="toggle_visibility('vertical');">B. Vertical</a>
+<div id="vertical" style = "display: none">Sorry, wrong answer.</div>
+
+<br>
+
+<a href="#" onclick="toggle_visibility('horizontal');">C. Horizontal</a>
+<div id="horizontal" style = "display: none">Sorry, wrong answer.</div>
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
     </div>
   </div>
 </body>
