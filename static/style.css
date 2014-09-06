@@ -106,6 +106,7 @@ nav{
   height: 80px;
   margin: 0px;
   width: 100%;
+  min-width:950px;
 }
 
 nav img {
