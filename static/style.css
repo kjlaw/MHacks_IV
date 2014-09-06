@@ -5,6 +5,16 @@ body{
 }
 
 nav{
-	background-color: #FF4A3C;
+  background-color: #FF4A3C;
   height: 80px;
+  margin: 0px;
+}
+
+p{
+  font-size: 48px;
+  margin:0px;
+  padding-top: 15px;  
+  text-align: center;
+  color: #A6E480;
+  font-family: Signika;
 }
