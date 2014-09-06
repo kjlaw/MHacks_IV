@@ -4,6 +4,18 @@
   <link href="static/normalize.css" rel="stylesheet" type="text/css">
   <link href="static/style.css" rel="stylesheet" type="text/css">
  <link href='http://fonts.googleapis.com/css?family=Nunito|Signika:700,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="../jquery.colorbox.js"></script>
+ <script>
+  $(document).ready(function () {
+    $(".container").fadeIn(10000)
+  });
+</script>
+ <script>
+  $(document).ready(function(){
+    $(".youtube").colorbox({iframe:true, innerWidth:500, innerHeight:390});
+  });
+  </script>
 </head>
 
 <body class="container">
@@ -15,8 +27,12 @@
     <div class="story_text">
       The first friend Dorothy helped in Oz was named Scarecrow the Robot. Scarecrow wanted a brain. What&#39;s a brain for a robot called?
 a) microprocessor b) batteries  c) motor
-That&#39;s right! Scarecrow needs a microprocessor. What&#39;s a microprocessor? 
-[button cues up video]
+That&#39;s right! Scarecrow needs a microprocessor. 
+<button type = "button"> <a class='youtube' href="https://www.youtube.com/embed/H9ZTP2k0DRc?rel=0&amp;wmode=transparent">What is a microprocessor?</a></button>
+    
     </div>
   </div>
+  <a href="page_2.html"> 
+      <button>continue </button>
+    </a>
 </body>

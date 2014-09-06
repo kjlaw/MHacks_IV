@@ -4,6 +4,16 @@
   <link href="static/normalize.css" rel="stylesheet" type="text/css">
   <link href="static/style.css" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Nunito|Signika:700,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="../jquery.colorbox.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $(".youtube").colorbox({iframe:true, innerWidth:500, innerHeight:390});
+  });
+  </script>
+
 </head>
 
 <body class="container">
@@ -13,11 +23,46 @@
   </nav> 
   <div id="page_3_text">
     <div class="story_text">
-      Dorothy, Toto, and Scarecrow met Tin Man as they continued down the yellow brick road. Tin Man was so rusted that he couldn&#39;t move! &#34;We need to get you some motors,&#34; said Dorothy. (Do you know what a motor is?) (linked text button to video)
-Which part of a motor slows down the rotations?
-a) electric current   b) gear box c) axle shaft
-Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man&#39;s design so that he can show his gratitude?
-[next page]
+      Dorothy, Toto, and Scarecrow met Tin Man as they continued down the yellow brick road. Tin Man was so rusted that he couldn&#39;t move! &#34;We need to get you some motors,&#34; said Dorothy. <button type = "button"> <a class='youtube' href="https://www.youtube.com/embed/H9ZTP2k0DRc?rel=0&amp;wmode=transparent">What is a motor?</a>
+    </button>
+    <br>
+    What type of motion does a motor perform?
+
+<button onclick ="myRotational()">A. Rotational
+</button>  
+
+<script>
+function myRotational () {
+  alert("That is correct! Good job!");
+}
+
+</script>
+
+<button onclick ="myHorizontal()">B. Horizontal
+</button>
+
+<script>
+  function myHorizontal () {
+    alert("Sorry, that is the wrong answer");
+  }
+
+  $('p').fadeIn('slow');
+
+</script>
+
+
+<button onClick="myVertical()"> C. Vertical </button>
+  <script>
+      function myVertical () {
+        alert("Sorry, that is the wrong answer");
+      }
+
+</script>
+
+<p>Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man&#39;s design so that he can show his gratitude?
+<a href="page_4.html"> 
+      <button>continue </button>
+    </a>
     </div>
   </div>
 </body>
