@@ -15,13 +15,39 @@
 </script>
 
 <script>
+$(document).ready(function (){
 
-  $("#Rotational").click(function(){
-      $("#one").show();
-      $("#Vertical").fadeOut();
-      $("#Horizontal").fadeOut();
+  $('#Rotational').click(function(){
+      $('#one').toggle();
+      $('#Vertical').toggle();
+      $('#Horizontal').toggle();
   });
+
+});
   </script>
+
+
+<script>
+  $(document).ready(function () {
+    $('#Vertical').click(function () {
+      $('#two').toggle();
+      $('#Rotational').toggle();
+      $('#Horizontal').toggle();
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $('#Horizontal').click(function () {
+      $('#three').toggle();
+      $('#Rotational').toggle();
+      $('#Vertical').toggle();
+    });
+  });
+</script>
+
+
 </head>
 
 <body class="container">
@@ -42,15 +68,17 @@
 
 
 <button id = "Rotational"> A. Rotational</button>
-<div id = "one" style="display:none"> Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man’s design so that he can show his gratitude? <a href="page_4.html"> 
+<div id = "one" style="display:none"> Great job! Now Tin Man can move. He is so grateful to Dorothy the great engineer! He wants to bend down and pick her a flower, but is not built to do that. How can we alter Tin Man&rsquo;s design so that he can show his gratitude? <a href="page_4.html"> 
       <button>continue </button>
     </a>
 </div>
 <br>
 
 <button id= "Vertical"> B. Vertical </button>
+  <div id = "two" style="display:none"> Sorry, wrong answer </div>
 
 <button id = "Horizontal"> C. Horizontal </button>
+  <div id ="three" style ="display:none"> Sorry, wrong answer </div>
 
     </div>
   </div>

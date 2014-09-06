@@ -74,6 +74,18 @@ body{
   box-shadow: 2px 3px 10px 5px #888880;
 }
 
+#one {
+  font-size: 20px;
+}
+
+#two {
+  font-size: 20px;
+}
+
+#three {
+  font-size: 20px;
+}
+
 .story_text{
   width: 450px;
   height: auto;  
