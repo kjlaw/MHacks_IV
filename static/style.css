@@ -19,7 +19,7 @@ button{
   border-color: rgba(254,139,74, 0.3);
   border-radius: 2px;
   font-size: 16px;
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 button#page_2{
@@ -161,4 +161,8 @@ nav img {
   color: #A6E480;
   font-family: "Montserrat", sans-serif;
   /*text-shadow: 2px 2px #ff0000;*/
+}
+
+a#title {
+	color: #A6E480;
 }
