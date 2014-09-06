@@ -17,6 +17,37 @@
     $("a[rel^='prettyPhoto']").prettyPhoto({allow_resize: false, default_width: 480, default_height: 360, social_tools: false});
   });
 </script>
+
+<script>
+$(document).ready(function (){
+
+  $('#Microprocessor').click(function(){
+      $('#one').toggle();
+      $('#Batteries').fadeOut();
+      $('#Horizontal').fadeOut();
+      $('#two').fadeOut();
+      $('#three').fadeOut();
+  });
+
+});
+  </script>
+
+
+<script>
+  $(document).ready(function () {
+    $('#Batteries').click(function () {
+      $('#two').toggle();
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $('#Horizontal').click(function () {
+      $('#three').toggle();
+    });
+  });
+</script>
 </head>
 
 <body class="container">
@@ -30,22 +61,24 @@
   The first friend Dorothy helped in Oz was named Scarecrow the Robot. Scarecrow wanted a brain. What's a brain for a robot called?
   <br>
 
-<a href="#" onclick="toggle_visibility('microprocessor');">A. Microprocessor</a>
-<div id="microprocessor" style = "display: none"> That's right! Scarecrow needs a microprocessor. 
+<button id = "Microprocessor">A. Microprocessor</button>
+<div id="one" style = "display: none"> That's right! Scarecrow needs a microprocessor. <br>
 <button type = "button"> <a rel="prettyPhoto" href="https://www.youtube.com/watch?v=H9ZTP2k0DRc">What is a microprocessor?</a></button>
+<br>
+<br>
  <a href="page_2.html"> 
       <button>continue </button>
     </a>
-</div>
+  </div>
 <br>
 
-<a href="#" onclick="toggle_visibility('batteries');">B. Batteries</a>
-<div id="batteries" style = "display: none">Sorry, wrong answer.</div>
+<button id ="Batteries">B. Batteries</button>
+<div id="two" style = "display: none">Sorry, wrong answer.</div>
 
 <br>
 
-<a href="#" onclick="toggle_visibility('motor');">C. Horizontal</a>
-<div id="motor" style = "display: none">Sorry, wrong answer.</div>
+<button id ="Horizontal">C. Horizontal</button>
+<div id="three" style = "display: none">Sorry, wrong answer.</div>
 
 <script type="text/javascript">
 <!--
