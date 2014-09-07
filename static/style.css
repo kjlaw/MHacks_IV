@@ -22,6 +22,14 @@ button{
   font-family: "Montserrat", sans-serif;
 }
 
+#start_over{
+ float: right;
+ margin: 25px;
+ background-color: #3C9F9C;
+ color: cornsilk;
+ box-shadow: 0.5px 1px 2px 1px #888880;
+}
+
 a{
   color: black;
   text-decoration: none; 
@@ -30,11 +38,6 @@ a{
 a:hover{
   color: rgba(0, 14, 14, 0.5);
 }
-
-/*div#rotational{
-  height:200px;
-  overflow: scroll;
-}*/
 
 #page_1_text{
   width:950px;
