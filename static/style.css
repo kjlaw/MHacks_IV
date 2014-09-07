@@ -27,7 +27,7 @@ button{
  margin: 25px;
  background-color: #3C9F9C;
  color: cornsilk;
- box-shadow: 0.5px 1px 2px 1px #888880;
+ box-shadow: 0.5px 1px 1px 0.5px #888880;
 }
 
 a{
