@@ -22,10 +22,6 @@ button{
   font-family: "Montserrat", sans-serif;
 }
 
-button#page_2{
-  margin-left: 375px;
-}
-
 a{
   color: black;
   text-decoration: none; 
@@ -165,4 +161,8 @@ nav img {
 
 a#title {
 	color: #A6E480;
+}
+
+.continue_button {
+	float: right;
 }
